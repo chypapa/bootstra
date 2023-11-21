@@ -9,26 +9,33 @@
     <link rel="stylesheet" href="css/fontello.css">
 </head>
 <body>
-    <nav class="naav">
-        <div class="logo">
-            <img src="img/Frame 127.png" alt="">
-            <h1>CRYPTER</h1>
+   <nav class="navbar bg-body-tertiary navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="logo" style="padding-left: 10px;" href="#"><img src="img/Frame 127.png" alt=""> <h1>CRYPTER</h1> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" ata-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> </a></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+    
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">DISCOVER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FEED</a>
+                        </li>
+                        <li class="nav-item">
+                            <button  class="nav-link" style="border: 1px solid rgb(29, 29, 29); border-radius: 4px 4px 4px 4px; padding: 10px ;" href="#">CONNECT WALLET</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <ul class="verh">
-            <li>DISCOVER</li>
-            <li>FEED</li>
-            <li><button>CONNECT WALLET</button></li>
-            <li><i class="icon-eq"></i></li>
-        </ul>
-        
-        <i class="icon-eq" id="eq"></i>
-        <ul class="verh_2">
-            <li>DISCOVER</li>
-            <li>FEED</li>
-            <li><button>CONNECT WALLET</button></li>
-            <li><i class="icon-eq"></i></li>
-        </ul>
-        
     </nav>
 
     <div class="sec-1">
